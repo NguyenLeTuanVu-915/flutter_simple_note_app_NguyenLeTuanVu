@@ -49,6 +49,7 @@ Giao diện (Screens / Widgets)
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9c230baf-bd00-4393-9560-2e7567a41dae" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/506f468c-745d-4cbc-aa15-6e30a94a564a" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a5c75aab-a392-424a-9604-3740c0453324" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4a1c38fd-2d2a-4b22-a865-50ef0fd679dd" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/efd36cc0-84aa-404c-b0ba-29ce21d219dc" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/522140ed-9d46-4bbb-803e-c65a55d2aa15" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ba191cb4-9a96-4f0f-8f03-918cd4a40ea4" />
