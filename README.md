@@ -14,25 +14,19 @@
 ## Sơ Đồ Kiến Trúc
 
 ```
-simple_note_app/
-└── lib/
-    ├── main.dart                    ← Điểm khởi chạy app, cấu hình ChangeNotifierProvider
-    │
-    ├── models/
-    │   └── note.dart                ← Model dữ liệu (id, title, content, createdAt)
-    │
-    ├── database/
-    │   └── db_helper.dart           ← Singleton SQLite helper (thao tác CRUD)
-    │
-    ├── providers/
-    │   └── note_provider.dart       ← Quản lý trạng thái với ChangeNotifier
-    │
-    ├── screens/
-    │   ├── home_page.dart           ← Màn hình chính: danh sách + nút thêm
-    │   └── note_editor_screen.dart  ← Màn hình thêm / chỉnh sửa ghi chú
-    │
-    └── widgets/
-        └── note_card.dart           ← Widget card hiển thị tiêu đề, nội dung, thời gian
+lib/
+├── database/
+│   └── db_helper.dart           ← Singleton SQLite helper (thao tác CRUD)
+├── models/
+│   └── note.dart                ← Model dữ liệu (id, title, content, createdAt)
+├── providers/
+│   └── note_provider.dart       ← Quản lý trạng thái với ChangeNotifier
+├── screens/
+│   ├── home_page.dart           ← Màn hình chính: danh sách + nút thêm
+│   └── note_editor_screen.dart  ← Màn hình thêm / chỉnh sửa ghi chú
+├── widgets/
+│   └── note_card.dart           ← Widget card hiển thị tiêu đề, nội dung, thời gian
+└── main.dart                    ← Điểm khởi chạy app, cấu hình 
 ```
 
 ### Luồng Dữ Liệu
