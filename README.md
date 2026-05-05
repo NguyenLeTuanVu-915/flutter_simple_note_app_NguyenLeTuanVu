@@ -2,8 +2,6 @@
 
 Ứng dụng di động Flutter cho phép người dùng tạo, chỉnh sửa và quản lý ghi chú cá nhân với khả năng lưu trữ cục bộ bằng SQLite. Được xây dựng trong khuôn khổ **Lab 5 – Flutter Libraries & Native Code**.
 
----
-
 ## Mô Tả & Tính Năng
 
 - **Tạo ghi chú** với tiêu đề và nội dung
@@ -12,8 +10,6 @@
 - **Xóa ghi chú** kèm hộp thoại xác nhận để tránh xóa nhầm
 - **Lưu trữ cục bộ** bằng SQLite — dữ liệu được giữ nguyên giữa các phiên
 - **Hiển thị thời gian** tạo ghi chú theo định dạng dd/MM/yyyy HH:mm
-
----
 
 ## Sơ Đồ Kiến Trúc
 
@@ -54,8 +50,6 @@ Giao diện (Screens / Widgets)
   Cơ sở dữ liệu SQLite (notes.db)
 ```
 
----
-
 ## Hướng Dẫn Chạy Dự Án
 
 ### Yêu Cầu
@@ -81,8 +75,6 @@ flutter pub get
 flutter run -d android
 ```
 
----
-
 ## Công Nghệ Sử Dụng
 
 | Package | Phiên bản | Mục đích |
@@ -94,8 +86,6 @@ flutter run -d android
 | `intl` | ^0.19.0 | Định dạng ngày giờ cho timestamp |
 | `flutter` | SDK | Framework xây dựng giao diện |
 
----
-
 ## Hạn Chế Hiện Tại
 
 - **Chỉ hỗ trợ Android** — `sqflite` không chạy được trên Flutter Web hoặc Desktop nếu không có package bổ sung
@@ -104,8 +94,6 @@ flutter run -d android
 - **Chỉ hỗ trợ văn bản thuần** — không có định dạng in đậm, in nghiêng hay markdown
 - **Không đính kèm hình ảnh** — nội dung ghi chú chỉ là chữ
 - **Không có tính năng hoàn tác** — ghi chú bị xóa không thể khôi phục
-
----
 
 ## Hướng Phát Triển Trong Tương Lai
 
